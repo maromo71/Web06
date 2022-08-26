@@ -1,4 +1,17 @@
 body {
     font-family: Arial, Verdana, serif;
-    background: tomato;
+    background: white;
+    font-size: 2rem;
+}
+ul {
+
+}
+a {
+    padding: 10px;
+    color: white;
+}
+li {
+    background: red;
+    display: inline;
+    border: 1px solid lightblue;
 }

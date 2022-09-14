@@ -2,6 +2,7 @@ body {
     font-family: Arial, Verdana, serif;
     background: white;
     font-size: 2rem;
+
 }
 ul {
 
@@ -14,4 +15,7 @@ li {
     background: red;
     display: inline;
     border: 1px solid lightblue;
+}
+h1 {
+    background: #bb9067 linear-gradient(green, blue, yellow) ;
 }

@@ -1,4 +1,4 @@
-package br.santalucia.web04times.dao;
+package br.santalucia.web05jogador.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

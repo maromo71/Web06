@@ -1,4 +1,4 @@
-package br.santalucia.web04times.model;
+package br.santalucia.web05jogador.model;
 
 public class Jogador {
     private String nome;

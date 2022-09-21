@@ -1,6 +1,6 @@
-package br.santalucia.web04times.dao;
+package br.santalucia.web05jogador.dao;
 
-import br.santalucia.web04times.model.Jogador;
+import br.santalucia.web05jogador.model.Jogador;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

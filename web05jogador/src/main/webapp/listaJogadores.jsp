@@ -1,5 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java"
-         import="java.util.*, net.maromo.web05.dao.*, net.maromo.web05.model.Jogador"
+<%@ page contentType="text/html;charset=UTF-8"
+         language="java"
+         import="java.util.*,
+         br.santalucia.web05jogador.dao.*,
+         br.santalucia.web05jogador.model.Jogador"
 %>
 <!DOCTYPE html>
 <html lang="pt-br">

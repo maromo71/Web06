@@ -5,39 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961c0501-3025-46c8-92c2-aef5f2d7bfa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/ClienteTCP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ClienteTCP/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorPedra/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorPedra/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorPedra/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorPedra/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorPedra/ServidorPedra.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorPedra/src/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorTCP/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorTCP/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorTCP/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorTCP/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorTCP/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ServidorTCP/ServidorTCP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Web06_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Web06_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jpb/persistence-units.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/faces-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/adicionar.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/editar.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/remover.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../webRevisao/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../webRevisao/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/dao/JogadorDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/dao/JpaUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/model/Jogador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/editar.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editar.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/remover.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/remover.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,7 +38,7 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -77,15 +53,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Web06 [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
@@ -124,7 +101,8 @@
       <workItem from="1664499277613" duration="729000" />
       <workItem from="1664500024413" duration="1459000" />
       <workItem from="1664635651289" duration="651000" />
-      <workItem from="1665008930642" duration="87000" />
+      <workItem from="1665008930642" duration="231000" />
+      <workItem from="1665102572399" duration="2842000" />
     </task>
     <servers />
   </component>

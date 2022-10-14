@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961c0501-3025-46c8-92c2-aef5f2d7bfa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/bean/JogadorBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/bean/JogadorBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/dao/JogadorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/dao/JogadorDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/model/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/model/Jogador.java" afterDir="false" />
-    </list>
+    <list default="true" id="961c0501-3025-46c8-92c2-aef5f2d7bfa3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +108,7 @@
       <workItem from="1665709129567" duration="3000" />
       <workItem from="1665763161158" duration="166000" />
       <workItem from="1665763344699" duration="179000" />
-      <workItem from="1665764891882" duration="2445000" />
+      <workItem from="1665764891882" duration="2772000" />
     </task>
     <servers />
   </component>

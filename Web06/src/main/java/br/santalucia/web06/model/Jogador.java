@@ -10,7 +10,7 @@ import java.util.Objects;
 public class Jogador {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long idJogador;
+    private int idJogador;
 
     private String nome;
 
@@ -20,11 +20,11 @@ public class Jogador {
 
     private int idade;
 
-    public Long getIdJogador() {
+    public int getIdJogador() {
         return idJogador;
     }
 
-    public void setIdJogador(Long idJogador) {
+    public void setIdJogador(int idJogador) {
         this.idJogador = idJogador;
     }
 

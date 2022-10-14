@@ -45,18 +45,16 @@ public class JogadorBean {
 
     public String editar() {
         dao.editar(jogador);
-
         jogador = new Jogador();
-
         FacesContext context = FacesContext.getCurrentInstance();
         context.addMessage(null, new FacesMessage("Jogador editado com sucesso!"));
         context.getExternalContext().getFlash().setKeepMessages(true);
-
         return "home";
     }
 
+
     public String remover() {
-        dao.remover(jogador);
+        dao.remover(jogador.getIdJogador());
 
         jogador = new Jogador();
 
@@ -67,7 +65,7 @@ public class JogadorBean {
         return "home";
     }
     public void jogadorPorId() {
-        jogador = dao.buscar(Integer.parseInt(jogador.getIdJogador().toString()));
+        jogador = dao.buscar(jogador.getIdJogador());
         if (jogador == null || jogador.getIdJogador()== 0) {
             jogador = new Jogador();
             FacesMessage message = new FacesMessage("Jogador não encontrado.");

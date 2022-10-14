@@ -36,17 +36,19 @@ public class JogadorDao {
         return lista;
     }
 
-    public void remover(Jogador jogador){
+    public void remover(int id){
+        System.out.println(id);
         em = JpaUtil.getEntityManager();
-        Jogador j = em.find(Jogador.class, jogador.getIdJogador());
+
+        Jogador j = em.find(Jogador.class, id);
         tx = em.getTransaction();
         tx.begin();
-        em.remove(jogador);
+        em.remove(j);
         tx.commit();
         em.close();
     }
 
-    public void editar(Jogador jogador){
+    public void editar(Jogador jogador) {
         em = JpaUtil.getEntityManager();
         tx = em.getTransaction();
         tx.begin();

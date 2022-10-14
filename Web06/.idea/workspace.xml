@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="961c0501-3025-46c8-92c2-aef5f2d7bfa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/bean/JogadorBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Web06_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Web06_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/adicionar.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/adicionar.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/editar.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editar.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/remover.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/remover.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/bean/JogadorBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/bean/JogadorBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/dao/JogadorDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/dao/JogadorDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/model/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/santalucia/web06/model/Jogador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +30,15 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
@@ -60,8 +60,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/labprog2/Web06&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/maromo/labprog2/Web06&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
@@ -109,6 +112,9 @@
       <workItem from="1665707353435" duration="713000" />
       <workItem from="1665708072718" duration="757000" />
       <workItem from="1665709129567" duration="3000" />
+      <workItem from="1665763161158" duration="166000" />
+      <workItem from="1665763344699" duration="179000" />
+      <workItem from="1665764891882" duration="2445000" />
     </task>
     <servers />
   </component>
